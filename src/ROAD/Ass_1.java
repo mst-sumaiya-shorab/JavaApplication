@@ -3,18 +3,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ROAD;
-
-/**
- *
+/*
  * this code about of without shorting linear searching
  */
 public class Ass_1 {
 
-    /**
-     *
-     * @param array
-     * @return
-     */
     public static double findhighest(double[] array) {
         double highest = array[0];
         for (double i : array) {
@@ -24,7 +17,7 @@ public class Ass_1 {
         }
         return highest;
     }
-
+    
     public static double findsechighest(double[] array) {
         double highest = findhighest(array);
         double sechighest = array[0];
@@ -32,7 +25,6 @@ public class Ass_1 {
             if (i < highest && i > sechighest) {
                 sechighest = i;
             }
-
         }
         return sechighest;
     }

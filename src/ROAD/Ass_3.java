@@ -3,11 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ROAD;
-
-/**
- *
- * @author User
- */
 import java.util.Scanner;
 
 public class Ass_3 {
@@ -15,7 +10,6 @@ public class Ass_3 {
     public static int binarysea(double[] array, double target) {
         int i = 0;
         int j = array.length - 1;
-//        double epsilon = 0.0001;
         while (i <= j) {
             int mid = (i + j) / 2;
 
@@ -29,7 +23,6 @@ public class Ass_3 {
         }
         return -1;
     }
-
     public static void main(String[] args) {
         double[] array = {3.3, 3.32, 3.43, 3.48, 3.5, 3.52, 3.6, 3.63, 3.75, 3.86};
         Scanner scanner = new Scanner(System.in);
@@ -43,5 +36,4 @@ public class Ass_3 {
             System.out.println("CGPA not found");
         }
     }
-    
 }

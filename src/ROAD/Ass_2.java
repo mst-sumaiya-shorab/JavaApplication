@@ -4,14 +4,6 @@
  */
 package ROAD;
 
-/**
- *
- * @author User
- */
-//import java.util.*;
-//import java.lang.*;
-//import java.io.*;
-
 public class Ass_2 {
 
     public static void main(String[] args) {
@@ -32,3 +24,4 @@ public class Ass_2 {
         }
     }
 }
+

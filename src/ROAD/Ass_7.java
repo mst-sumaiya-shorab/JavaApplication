@@ -10,7 +10,7 @@ public class Ass_7 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the heights of 10 babies in cm:");
+        System.out.print("Enter the heights of 10 babies in cm:");
         int lowest = Integer.MAX_VALUE;
         int secondlowest = Integer.MAX_VALUE;
 
@@ -25,8 +25,6 @@ public class Ass_7 {
         }
         
         System.out.println("The two lowest heights are: " + lowest + " cm and " + secondlowest + " cm");
-        
-        
         scanner.close();
     }
 }
