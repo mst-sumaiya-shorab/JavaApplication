@@ -25,6 +25,5 @@ public class Ass_9 {
         }
 
         scanner.close();
-
     }
 }

@@ -4,10 +4,6 @@
  */
 package ROAD;
 
-/**
- *
- * @author User
- */
 public class Ass_10 {
 
     public static void main(String[] args) {
