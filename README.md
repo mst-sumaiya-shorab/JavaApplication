@@ -3,7 +3,8 @@
 <br>
 
 ### Q-1: Find out who achieved the 2nd highest score. (without sorting, use linear searching algorithm)
-    10 students CGPA [3.50, 3.52, 3.43, 3.63, 3.48, 3.32, 3.30, 3.60, 3.86, 3.75]
+    10 students CGPA:
+    [3.50, 3.52, 3.43, 3.63, 3.48, 3.32, 3.30, 3.60, 3.86, 3.75]
 
 ### Q-2: Sort the above scores from according to the order of highest CGPA (don’t use Arrays.sort() method, do it programmatically)
 
